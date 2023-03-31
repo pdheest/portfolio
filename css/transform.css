@@ -1,0 +1,190 @@
+font-family: 'poppins';
+.first1{
+    width: 100px;
+    height: 100px;
+    border: red 1px solid;
+    transition: all 1s linear;
+}
+.first1:hover{
+    transform: skewX(30deg);
+}
+
+.first2{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: red 1px solid;
+    transition: all 1s linear;
+}
+.first2:hover{
+    transform: rotate(45deg);
+}
+
+.first3{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: red 1px solid;
+    transition: all 1s linear;
+}
+.first3:hover{
+    transform: skew(45deg); 
+}
+
+.first4{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: red 1px solid;
+    transition: all 1s linear;
+}
+.first4:hover{
+    transform: translateX(10%) translateY(-10%);
+}
+
+.secondin1{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: blue 2px solid;
+}
+.second1{
+    width: 100px;
+    height: 100px;
+    border: blueviolet 1px solid;
+    transition: all 1s linear;
+}
+.second1:hover{
+    transform: translateX(25%) translateY(25%) rotate(45deg);
+}
+
+.secondin2{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: blue 2px solid;
+}
+.second2{
+    width: 100px;
+    height: 100px;
+    border: blueviolet 1px solid;
+    transition: all 1s linear;
+}
+.second2:hover{
+    transform: translateX(-27%) translateY(27%) rotate(45deg);
+}
+
+.secondin3{
+    margin-top: 20px;
+    width: 196px;
+    height: 196px;
+    padding: 2px;
+    border: blue 2px solid;
+}
+.second3{
+    width: 100px;
+    height: 100px;
+    border: blueviolet 1px solid;
+    transition: all 1s linear;
+}
+.second3:hover{
+    transform: translateX(45%) translateY(45%) rotate(45deg);
+}
+
+.secondin4{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: blue 2px solid;
+}
+.second4{
+    width: 100px;
+    height: 100px;
+    border: blueviolet 1px solid;
+    transition: all 1s linear;
+}
+.second4:hover{
+    transform: translateX(27%) translateY(-27%) rotate(-45deg);
+}
+
+.secondin5{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: blue 2px solid;
+}
+.second5{
+    width: 100px;
+    height: 100px;
+    border: blueviolet 1px solid;
+    transition: all 1s linear;
+}
+.second5:hover{
+    transform: translateX(25%) translateY(25%) scale(1.38);
+}
+
+
+.third1{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border: red 2px solid;
+    transition: all 1s linear;
+}
+.third1:hover{
+    transform: skewX(-30deg);
+    border-radius: 100%;
+}
+
+.fourthin1{
+    position: absolute;
+    animation: planet infinite 10s linear;
+}
+@keyframes planet{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.fourth2{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+    border-radius: 100%;
+}
+.fourth1{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px red solid;
+    border-radius: 100%;
+    transition: all 1s linear;
+    animation: bgcolor infinite 3s linear;
+}
+@keyframes bgcolor{
+    from {
+        background-color: crimson;
+    }
+    20% {
+        background-color: darkorange;
+    }
+    40% {
+        background-color: gold;
+    }
+    60% {
+        background-color: darkmagenta;
+    }
+    80% {
+        background-color: blueviolet;
+    }
+    to{
+        background-color: crimson;
+    }
+}

@@ -1,0 +1,55 @@
+/* 1 */
+.g1{
+    width: 700px;
+    height: 200px;
+    background: linear-gradient(to right bottom, #FFB8C9, #A6E3E8);
+}
+/* 2 */
+.g2{
+    width: 700px;
+    height: 200px;
+    background: linear-gradient(to bottom, #A29A87 30%, white 55%, #EBAC9A 80%);
+}
+/* 3 */
+.g3{
+    width: 700px;
+    height: 200px;
+    background: linear-gradient(to right, #FFDBD5 19%, #FFFAED 13% 80%, #DBDBDB 3%);
+}
+/* 4 */
+.g4{
+    width: 700px;
+    height: 200px;
+    background: radial-gradient(ellipse 410px 130px, white, #FFA09C);
+}
+/* 5 */
+.g5{
+    width: 700px;
+    height: 200px;
+    background: radial-gradient(ellipse 400px 200px at top, white, #A0D1CD);
+}
+/* 6 */
+.g6{
+    width: 700px;
+    height: 200px;
+    background: radial-gradient(ellipse 400px 200px, white, #A0D1CD);
+}
+/* 7 */
+.g7{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: radial-gradient(circle at right top,#00FFFF, #1C00A2);
+}
+/* 8 */
+.g8{
+    width: 700px;
+    height: 200px;
+    background: repeating-linear-gradient(to right top, #655ABC, #655ABC 10px, #4A4098 10px, #4A4098 20px);
+}
+/* 9 */
+.g9{
+    width: 700px;
+    height: 200px;
+    background: repeating-radial-gradient(circle, #B0EDFF, #B0EDFF 10px, #6CDDFF 10px, #6CDDFF 20px);
+}

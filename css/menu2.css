@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+.bg{
+    width: 1500px;
+    height: 723px;
+    background-image: url(../img/images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px;
+}
+/* Menu */
+.container{
+    width: 1500px;
+    height: 75px;
+    background: #05AECD;
+    color: white;
+
+}
+.container ul li{
+    position: relative;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+}
+.menu ul{
+    padding: 0px;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu a{
+    padding: 29px;
+}
+.menu a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background: white;
+    color: #EF6772;
+}
+
+/* submenu */
+.submenu{
+    display: none;
+    position: absolute;
+    top: 48px;
+    width: 320px;
+    height: 440px;
+    background: rgba(255, 255, 255, 0.829);
+    color: black;
+}
+.block{
+    margin: 0 20px;
+    display: flex;
+    width: 280px;
+    height: 120px;
+    padding-top: 10px;
+    border-bottom: solid 2px #D2D0D1;
+}
+.img{
+    background-image: url(../img/images/los.png);
+    width: 92px;
+    height: 92px;
+}
+.text{
+    padding: 10px 1px 12px 12px;
+    color: #4C4B49;
+}
+.t1{
+    color: #EF626E;
+    letter-spacing: 2px;
+}
+.t2{
+    font-size: 14px;
+}
+.detail{
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    margin-top: 3px;
+    padding: 5px 30px;
+    background: #05AECD;
+}
+.pp{
+    color: #EF626E;
+    letter-spacing: 2px;
+    padding: 13px;
+}
+.HandL:hover .submenu{
+    display: block;
+}
+.HandL{
+}

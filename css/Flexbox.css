@@ -1,0 +1,17 @@
+.block {
+    width: 800px;
+    height: 500px;
+    border:1px solid red;
+    border-right: none;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.div{
+    width: 110px;
+    height: 60px;
+    border: 1px solid green;
+    border-top-color: aqua;
+    border-bottom-color: aqua;
+}

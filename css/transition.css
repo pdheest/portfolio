@@ -1,0 +1,48 @@
+.blue{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: all 1s linear;
+}
+.blue:hover {
+    background: yellow;
+    width: 300px;
+    height: 300px;
+}
+
+.circle{
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 100%;
+    background: red;
+    width: 100px;
+    height: 100px;
+    transition: all 3s linear;
+}
+.circle:hover{
+    width: 200px;
+    height: 200px;
+}
+.menu{
+    margin-top: 240px;
+    background: #a19e9e;
+    width: 39px;
+    padding: 24px;
+}
+.submenu{
+    transition: 1s linear;
+    width: 100px;
+    height: 0px;
+    color: #a0a9da00;
+    /* display: none; */
+
+    background-color: #a0a9da;
+    position: absolute;
+    left: 8px;
+    top: 415px;
+}
+.menu:hover .submenu{
+    /* display: block; */
+    height: 100px;
+    color: black;
+}

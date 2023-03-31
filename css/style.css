@@ -1,0 +1,200 @@
+.bg{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/bg-circles.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+.logo{
+    margin-left: 130px;
+}
+.menu div{
+    width: 145px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.colors{
+    position: absolute;
+    font-family: sans-serif;
+    margin-top: 110px;
+    margin-left: 760px;
+    color: white;
+}
+.pc1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.pc2{
+    margin-top: 5px;
+}
+.join{
+    font-size: 25px;
+    border: solid white 2px;
+    border-radius: 7px;
+    position: absolute;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.join:hover{
+    background-color: #fa636a;
+}
+.text{
+    font-family: sans-serif;
+    font-size: 25px;
+    width: 80%;
+    margin: 75px auto;
+}
+.text2 {
+    font-size: 15px;
+    line-height: 25px;
+}
+.imgg{
+    margin-top: 60px;
+}
+.bricks{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    color: white;
+}
+.g1{
+    background-color: #2D5F3A;
+    height: 350px;
+    width: 33%;
+}
+.flexg1{
+    display: flex;
+    flex-direction: row;
+}
+.stat{
+    margin-top: 40px;
+    margin-left: 46px;
+}
+.stat1{
+    margin-top: 46px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.r{
+    background-color: #F54B54;
+    height: 350px;
+    width: 33%;
+}
+.pp1{
+    margin-left: 46px;
+    margin-right: 45px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.pp2{
+    margin-left: 46px;
+    margin-right: 45px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.pp3{
+    margin-left: 46px;
+    margin-right: 45px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.flexr2{
+    display: flex;
+    flex-direction: row;
+}
+.screen{
+    margin-top: 36px;
+    margin-left: 46px;
+}
+.screen1{
+    margin-top: 46px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.flexg3{
+    display: flex;
+    flex-direction: row;
+}
+.cloud{
+    margin-top: 40px;
+    margin-left: 46px;
+}
+.cloud1{
+    margin-top: 46px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.bricks span{
+    font-size: 40px;
+    margin-left: 343px;
+}
+.plus{
+    background-color: #1A3E24;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.plus:hover{
+    background-color:#152e1c;
+    color:  #cee3d3;
+}
+.plus2{
+    background-color: #C53840;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.plus2:hover{
+    background-color: #893036;
+    color: #e3ced0;
+}
+.plus3{
+    background-color: #1b4327;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.plus3:hover{
+    background-color: #152e1c;
+    color: #cee3d3;
+}
+.bg2{
+    height: 500px;
+    width: 1320px;
+    background-image: url(../img/bg-nature.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.t{
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 120px;
+}
+.blockk{
+    position: absolute;
+    font-size: 25px;
+    border: solid 2px white;
+    margin-left: 582px;
+    padding: 8px 25px 8px 25px;
+    border-radius: 5px;
+}
+.blockk:hover{
+    background-color: #2b2b28;
+}
+.bg3{
+    height: 5px;
+    width: 1320px;
+    background-image: url(../img/bg-bricks.jpg);
+}
