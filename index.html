@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,21 +14,20 @@
             Kelvin
             <div class="circle"></div>
         </div>
-        <div class="btn">
-            <div class="palka"></div>
-            <div class="palka"></div>
-            <div class="palka2"></div>
+        <div class="button2">
+                <span></span>
             <div class="submenu">
                 <div class="menumenu">
                     <div class="home2">Home</div>
                     <div class="cross">+</div>
-                </div>
+                 </div>
                 <div class="pp">
                     <div class="li">Works</div>
                     <div class="li">Services</div>
                     <div class="li">About</div>
                     <div class="li">Contact</div>
-                </div>
+                </div>img
+                css
             </div>
         </div>
         <div class="menu2">
@@ -37,6 +36,9 @@
             <div class="word">Services</div>
             <div class="word">About</div>
             <div class="word">Contact</div>
+            <!-- <div class="button">
+                <span></span>
+            </div> -->
         </div>
     </div>
     <div class="block">
@@ -91,5 +93,22 @@
     <div class="msgs">
         <img src="./img/portfolio/Screenshot_6.png" alt="">
     </div>
+
 </div>
+<script>
+    // let button = document.querySelector(".button")
+    // button.addEventListener("click", getclick)
+    // function getclick(){
+    //     button.classList.toggle("active")
+    // }
+    
+    let menu2 = document.querySelector(".menu2")
+    let button2 = document.querySelector(".button2")
+    button2.addEventListener("click", getclick)
+    function getclick(){
+        button2.classList.toggle("active2")
+        // menu2.style.left = 0
+        menu2.classList.toggle('open')
+    }
+</script>
 </body>
